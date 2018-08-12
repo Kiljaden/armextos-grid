@@ -49,9 +49,6 @@
     margin-bottom: -150px;
 }
 
-
-
-
 @media only screen and (max-width: 1000px) {
     .v-col1-h, .v-col2-h, .v-col3-h, .v-col4-h, .v-col5-h, .v-col6-h, .v-col7-h, .v-col8-h, .v-col9-h, .v-col10-h, .v-col11-h, .v-col12-h{
         display: none;
