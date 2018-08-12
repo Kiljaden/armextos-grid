@@ -4,7 +4,7 @@
 .v-col2, .v-col2-h{
     width: 16.66%;
 }
-.v-col3, .v-col3-h{
+.v-col3, .v-col3-h, .v-col3-b{
     width: 25%;
 }
 .v-col4, .v-col4-h{
@@ -32,13 +32,10 @@
 .v-col11, .v-col11-h{
     width: 91.66%;
 }
-.v-col12, .v-col12-h{
+.v-col12, .v-col12-h, .row{
     width: 100%;
 }
-.row{
-    width: 100%;
-}
-.v-col1, .v-col2, .v-col3, .v-col4, .v-col5, .v-col6, .v-col7, .v-col8, .v-col9, .v-col10, .v-col11, .v-col12, .v-col1-h, .v-col2-h, .v-col3-h, .v-col4-h, .v-col5-h, .v-col6-h, .v-col7-h, .v-col8-h, .v-col9-h, .v-col10-h, .v-col11-h, .v-col12-h, .row{
+.v-col3-b, .v-col1, .v-col2, .v-col3, .v-col4, .v-col5, .v-col6, .v-col7, .v-col8, .v-col9, .v-col10, .v-col11, .v-col12, .v-col1-h, .v-col2-h, .v-col3-h, .v-col4-h, .v-col5-h, .v-col6-h, .v-col7-h, .v-col8-h, .v-col9-h, .v-col10-h, .v-col11-h, .v-col12-h, .row{
     float: left;
 } 
 .footer, .push{
@@ -53,6 +50,9 @@
     .v-col1-h, .v-col2-h, .v-col3-h, .v-col4-h, .v-col5-h, .v-col6-h, .v-col7-h, .v-col8-h, .v-col9-h, .v-col10-h, .v-col11-h, .v-col12-h{
         display: none;
     } 
+    .v-col3-b{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 325px) {
