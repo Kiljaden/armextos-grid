@@ -1,41 +1,40 @@
-.v-col1, .v-col1-h{
+.vcol1{
     width: 8.33%;
 }
-.v-col2, .v-col2-h{
+.vcol2{
     width: 16.66%;
 }
-.v-col3, .v-col3-h, .v-col3-b{
+.vcol3{
     width: 25%;
 }
-.v-col4, .v-col4-h{
+.vcol4{
     width: 33.33%;
 }
-.v-col5, .v-col5-h{
+.vcol5{
     width: 41.66%;
 }
-/* This column is probably made for seprating the content into several parts */
-.v-col6, .v-col6-h{
+.vcol6{
     width: 50%;
 }
-.v-col7, .v-col7-h{
+.vcol7{
     width: 58.33%;
 }
-.v-col8, .v-col8-h{
+.vcol8{
     width: 66.66%;
 }
-.v-col9, .v-col9-h{
+.vcol9{
     width: 75%;
 }
-.v-col10, .v-col10-h{
+.vcol10{
     width: 83.33%;
 }
-.v-col11, .v-col11-h{
+.vcol11{
     width: 91.66%;
 }
-.v-col12, .v-col12-h, .row{
+.vcol12{
     width: 100%;
 }
-.v-col3-b, .v-col1, .v-col2, .v-col3, .v-col4, .v-col5, .v-col6, .v-col7, .v-col8, .v-col9, .v-col10, .v-col11, .v-col12, .v-col1-h, .v-col2-h, .v-col3-h, .v-col4-h, .v-col5-h, .v-col6-h, .v-col7-h, .v-col8-h, .v-col9-h, .v-col10-h, .v-col11-h, .v-col12-h, .row{
+.vcol1, .vcol2, .vcol3, .vcol4, .vcol5, .vcol6, .vcol7, .vcol8, .vcol9, .vcol10, .vcol11, .vcol12, .row{
     float: left;
 } 
 .footer, .push{
@@ -46,22 +45,26 @@
     margin-bottom: -150px;
 }
 
-@media only screen and (max-width: 1000px) {
-    .v-col1-h, .v-col2-h, .v-col3-h, .v-col4-h, .v-col5-h, .v-col6-h, .v-col7-h, .v-col8-h, .v-col9-h, .v-col10-h, .v-col11-h, .v-col12-h{
-        display: none;
-    } 
-    .v-col3-b{
-        width: 100%;
-    }
+@media only screen and (max-width: 1350px) {
 }
-
-@media only screen and (max-width: 325px) {
-    .v-col1, .v-col2, .v-col3, .v-col4, .v-col5, .v-col6, .v-col7, .v-col8, .v-col9, .v-col10, .v-col11, .v-col12{
-        width: 100%;
-    } 
+@media only screen and (max-width: 1150px) {
 }
-
-
+@media only screen and (max-width: 950px) {
+}
+@media only screen and (max-width: 850px) {
+}
+@media only screen and (max-width: 750px) {
+}
+@media only screen and (max-width: 650px) {
+}
+@media only screen and (max-width: 550px) {
+}
+@media only screen and (max-width: 450px) {
+}
+@media only screen and (max-width: 350px) {
+}
+@media only screen and (max-width: 200px) {
+}
 
 
 
