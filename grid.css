@@ -46,24 +46,36 @@
 }
 
 @media only screen and (max-width: 1350px) {
+    
 }
 @media only screen and (max-width: 1150px) {
+    
 }
 @media only screen and (max-width: 950px) {
+    
 }
 @media only screen and (max-width: 850px) {
+    
 }
 @media only screen and (max-width: 750px) {
+    
 }
 @media only screen and (max-width: 650px) {
+    
 }
 @media only screen and (max-width: 550px) {
+    
 }
 @media only screen and (max-width: 450px) {
+    .vcol1, .vcol2, .vcol3, .vcol4, .vcol5, .vcol6, .vcol7, .vcol8, .vcol9, .vcol10, .vcol11, .vcol12, .row{
+        width: 100%;
+    } 
 }
 @media only screen and (max-width: 350px) {
+    
 }
 @media only screen and (max-width: 200px) {
+    
 }
 
 
